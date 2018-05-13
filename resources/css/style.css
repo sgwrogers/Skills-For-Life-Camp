@@ -1,0 +1,258 @@
+@-ms-viewport {
+  width: device-width;
+}
+
+html {
+  font-family: 'lato', sans-serif;
+  color: #58595B;
+}
+
+body {
+  background: url("../images/summer-camp-prague/best-summer-camp-prague.jpg") no-repeat center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* Main Banner */
+.skills-for-life-camp {
+  height: 40rem;
+  background: url("../images/summer-camp-prague/summer-camp-collage.png") no-repeat center center;
+  background-size: cover;
+}
+
+#riverside {
+  height: 10rem;
+  margin-left: 10rem;
+  float: left;
+}
+
+#logo {
+  padding-top: 2.5rem;
+  position: relative;
+  left: 4rem;
+}
+
+nav {
+  background-color: #E7007F;
+  padding: 2rem;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 3rem;
+  font-size: 1.4rem;
+}
+
+nav a:hover {
+  color: teal;
+}
+
+/* Gallery */
+.gallery {
+  background-color: #000;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 10rem;
+}
+
+.column1, .column2, .column3 {
+  width: 25%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.column3 {
+  padding-top: 1rem;
+}
+
+.column1 img, .column2 img, .column3 img {
+  height: 14rem;
+  border: 5px solid white;
+}
+
+.gallery h3 {
+  color: #fff;
+  font-size: 1.6rem;
+  padding-top: 2rem;
+}
+
+.gallery p {
+  color: #fff;
+  padding-top: 1rem;
+  line-height: 1.1;
+}
+
+.Summer-Camp-In-Prague {
+  background-color: #fff;
+  opacity: 0.9;
+  text-align: center;
+  padding: 2rem 7rem;
+}
+
+.Summer-Camp-In-Prague h1 {
+  color: #000;
+  font-size: 3.5rem;
+}
+
+.Summer-Camp-In-Prague h5 {
+  color: #000;
+  font-size: 2rem;
+  padding-top: 1.5rem;
+}
+
+.what-makes-us-unique {
+  background-color: #f29100;
+  opacity: .9;
+  color: white;
+  padding: 2rem 7rem;
+  text-align: center;
+}
+
+.what-makes-us-unique h3 {
+  font-size: 3.5rem;
+}
+
+.what-makes-us-unique p {
+  font-size: 1.3rem;
+  padding-top: 1.5rem;
+  line-height: 1.3;
+}
+
+/* When and Where */
+.when-and-where {
+  display: flex;
+  background-color: #257ABD;
+  color: white;
+  opacity: .9;
+}
+
+.details-block {
+  width: 50%;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+.details-block h3 {
+  padding-top: 2rem;
+  font-size: 3.5rem;
+}
+
+.details-block h5 {
+  padding-top: 2rem;
+  font-size: 1.5rem;
+}
+
+.details-block p {
+  font-size: 1.2rem;
+  padding-top: 2rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.photo-collage {
+  width: 40%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.photo-collage-box {
+  display: flex;
+  justify-content: center;
+}
+
+.photo-left, .photo-right {
+  width: auto;
+}
+
+.photo-left img, .photo-right img {
+  height: 12rem;
+  margin-top: -2px;
+}
+
+.photo-right {
+  margin-left: -2rem;
+}
+
+/* Cost */
+.cost {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  color: #000;
+  padding-top: 2.5rem;
+  padding-bottom: 2rem;
+  opacity: .9;
+}
+
+.column-left {
+  width: 35%;
+}
+
+.column-left img {
+  height: 18rem;
+}
+
+.column-right {
+  display: inline-block;
+  width: 40%;
+  text-align: center;
+}
+
+.column-right h3 {
+  font-size: 3.5rem;
+}
+
+.column-right p {
+  padding-top: 2rem;
+  font-size: 1.5rem;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #E9198C;
+  color: #fff;
+  padding: 2rem 7rem;
+}
+
+.copyright {
+  width: 20%;
+}
+
+.social {
+  width: 20%;
+  text-align: center;
+}
+
+footer i {
+  color: white;
+  padding-left: 2rem;
+}
+
+.contact {
+  width: 30%;
+  text-align: center;
+}
+
+.contact h3 {
+  font-size: 2.25rem;
+  background-color: #1772B9;
+  padding: .75rem;
+}
+
+.contact h4, .contact a {
+  font-size: 1.25rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: white;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
